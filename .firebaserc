@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "zi-plan": {
+      "hosting": {
+        "zi-plan": [
+          "zi-plan"
+        ]
+      }
+    }
+  }
+}

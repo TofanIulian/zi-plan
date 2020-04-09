@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "zi-plan",
+      "public": "dist/zi-plan",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
