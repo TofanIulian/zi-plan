@@ -5,12 +5,14 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: '<your-key>',
-    authDomain: '<your-project-authdomain>',
-    databaseURL: '<your-database-URL>',
-    projectId: '<your-project-id>',
-    storageBucket: '<your-storage-bucket>',
-    messagingSenderId: '<your-messaging-sender-id>'
+    apiKey: "AIzaSyAvmgEFCm5uqYv9EjmozK8zgONXvkCXdEI",
+    authDomain: "zi-plan.firebaseapp.com",
+    databaseURL: "https://zi-plan.firebaseio.com",
+    projectId: "zi-plan",
+    storageBucket: "zi-plan.appspot.com",
+    messagingSenderId: "866457995701",
+    appId: "1:866457995701:web:8864f67663b5d4c7a2b1fc",
+    measurementId: "G-3616EKWEKY"
   }
 };
 

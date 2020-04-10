@@ -296,6 +296,13 @@
       visibility: hidden;
     }
   }
+
+  .testing-nav {
+    padding: 20px;
+  }
+  .testing-nav a {
+    display: block;
+  }
 </style>
 
 <!-- Toolbar -->
@@ -317,7 +324,10 @@
 
 <div class="content" role="main">
   
-  <a routerLink="/login">login</a>
+  <div class="testing-nav">
+    <a routerLink="/login">login</a>
+    <a routerLink="/orders">orders</a>
+  </div>
 
   <router-outlet></router-outlet>
 
