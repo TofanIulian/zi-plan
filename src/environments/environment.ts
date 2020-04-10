@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: '<your-key>',
+    authDomain: '<your-project-authdomain>',
+    databaseURL: '<your-database-URL>',
+    projectId: '<your-project-id>',
+    storageBucket: '<your-storage-bucket>',
+    messagingSenderId: '<your-messaging-sender-id>'
+  }
 };
 
 /*
@@ -14,3 +22,15 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+// Copy and paste these scripts into the bottom of your <body> tag, but before you use any Firebase services:
+// <!-- The core Firebase JS SDK is always required and must be listed first -->
+// <script src="/__/firebase/7.14.0/firebase-app.js"></script>
+
+// <!-- TODO: Add SDKs for Firebase products that you want to use
+//      https://firebase.google.com/docs/web/setup#available-libraries -->
+// <script src="/__/firebase/7.14.0/firebase-analytics.js"></script>
+
+// <!-- Initialize Firebase -->
+// <script src="/__/firebase/init.js"></script>
+// Learn more about Firebase for web: Get Started, Web SDK API Reference, Samples
